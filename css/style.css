@@ -1,0 +1,30 @@
+/* Reset */
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Generics */
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #F4562A ;
+}
+
+/* Utilities */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display:flex;
+}
+
+/* Header */
+.navbar {
+    height: 60px;
+}

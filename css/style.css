@@ -63,7 +63,7 @@ header {
 
 /* Hero */
 .hero {
-    height: 500px;
+    height: 600px;
     background-color: #004777;
     padding: 60px;
     display: flex;
@@ -72,18 +72,24 @@ header {
 
 .hero .content {
 background-color: #F4562A;
-width: 50%;
+width: 60%;
 }
 
 section {
-    min-height:500px;
-    padding:60px;
+    height:600px;
+    padding:60px 0;
 }
 
-.col-L {
+section > .container {
+    height: 100%;
+}
+
+.col-l {
     background-color: #50A2A7;
+    flex-basis: 60%;
 }
 
-.col-S {
+.col-s {
     background-color: #EF853B;
+    flex-basis: 40%;
 }

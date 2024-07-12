@@ -34,7 +34,7 @@ header {
 }
 
 .bg-gray {
-    background-color: rgb(149, 149, 149);
+    background-color: #cbccc7;
 }
 /* Header */
 .navbar {
@@ -92,4 +92,20 @@ section > .container {
 .col-s {
     background-color: #EF853B;
     flex-basis: 40%;
+}
+
+.col-full {
+    flex-basis: 100%;
+    background-color: #E9B44C;
+}
+
+/* Footer */
+.footer {
+    color: whitesmoke;
+    background-color: black;
+    padding: 50px;
+}
+
+.footer-top {
+    flex-basis: 25%;
 }

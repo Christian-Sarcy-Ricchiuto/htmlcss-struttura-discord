@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #F4562A ;
+    background-color: #50A2A7 ;
 }
 
 /* Utilities */
@@ -24,21 +24,47 @@ header {
     display:flex;
 }
 
+.layout {
+    border: 2px dashed;
+    background: #E9B44C;
+}
+
 /* Header */
 .navbar {
-    height: 60px;
+    height:60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+}
+
+.navbar > * {
     padding: 10px 0;
     flex-basis: 20%;
+    background-color: ;
+} 
+
+.navbar-logo {
+    text-align: left;
 }
 
 .navabar-menu {
     flex-grow: 1;
+    text-align: center;
+}
+
+.navbar-action {
+    text-align: right;
 }
 
 /* Hero */
 .hero {
-    min-height: 500px;
+    height: 500px;
+    background-color: #004777;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero .content {
+background-color: #94B9AF;
+  width: 50%;
 }
